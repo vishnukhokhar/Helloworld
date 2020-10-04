@@ -2,6 +2,7 @@
 session_start();
 include("Assets/php/dbconfig.php");
 function alert($msg) {
+#batman
     echo "<script type='text/javascript'>alert('$msg');</script>";
 }
 function check_pass($i,$dbconfig,$password){
